@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Free CRM App Suite">
+	<listeners>
+				<listener
+			class-name="com.freecrm.listener.TestAllureListener" />
+		
+	</listeners>
+
+	<test name="Login Test">
+		<classes>
+			
+			<class name="com.freecrm.test.LoginPageTest" />
+		
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
