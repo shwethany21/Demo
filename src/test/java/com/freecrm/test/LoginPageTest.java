@@ -44,4 +44,5 @@ public class LoginPageTest extends BaseTest{
 		loginPage.clickOnLoginBtn();
 	}
 	
-	}
+
+}
