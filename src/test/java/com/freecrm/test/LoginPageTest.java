@@ -49,7 +49,7 @@ public class LoginPageTest extends BaseTest{
 	@Test(priority = 5 )
 	public void verifyLandingPageTitle() throws Exception {
 		loginPage.clickOnLoginBtn();
-		Thread.sleep(5000);
+		Thread.sleep(6000);
 		String title = landingPage.doGetLoginPageTitle();
 		System.out.println("Landing Page title is : " + title);
 		Assert.assertEquals(title, AppConstants.LANDING_PAGE_TITLE);
