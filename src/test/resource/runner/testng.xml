@@ -12,6 +12,7 @@
 		<classes>
 			
 			<class name="com.freecrm.test.LoginPageTest" />
+			<class name="com.freecrm.test.LandingPageTest" />
 		
 		</classes>
 	</test> <!-- Test -->
