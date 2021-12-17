@@ -42,7 +42,7 @@ public class LandingPageTest extends BaseTest{
 	@Test(priority = 4 )
 	public void verifyLoginWithInvalidCredentails() throws Exception {
 		landingPage.loginWithInvalidCredentails("test@gmail.com", "Test@1234" );
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 	}
 
 	
